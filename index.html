@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyager|| Home</title>
+    <link rel="icon" href="Assets/Img/voyager logo.png">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Video -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="Assets/Video/hero video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm  fixed-top  ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="Assets/Img/voyager logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" id="burger" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="history.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="model.html">Model</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Accessories</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Find Us
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="dealerships.html">Dealership</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- anim -->
+    <div class="anim-container">
+        <span class="shutter top">
+            <img src="Assets/Img/voyager logo.png" class="logo" alt="">
+        </span>
+        <span class="shutter bottom"></span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="carousel-caption">
+                        <h5 class="animate__animated animate__fadeInDown" style="animation-delay: 1s;">
+                            Voyager Hot Road
+                        </h5>
+                        <p class="animate__animated animate__fadeInUp " style="animation-delay: 2s;">Our iconic
+                            machine, redefine.</p>
+                        <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s;"><a
+                                href="model.html#lambo">View
+                                More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="carousel-caption ">
+                        <h5 class="animate__animated animate__fadeInDown" style="animation-delay: 1s;">
+                            Voyager Spectre
+                        </h5>
+                        <p class="animate__animated animate__fadeInUp  " style="animation-delay: 2s;">
+                            A renaissance of luxuries.</p>
+                        <p class="animate__animated animate__fadeInUp " style="animation-delay: 3s;"><a
+                                href="model.html#rolls">View
+                                More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="carousel-caption ">
+                        <h5 class="animate__animated animate__fadeInDown" style="animation-delay: 1s;">
+                            Voyager Path finder
+                        </h5>
+                        <p class="animate__animated animate__fadeInUp " style="animation-delay: 2s;">Beauty of
+                            hardships.</p>
+                        <p class="animate__animated animate__fadeInUp " style="animation-delay: 3s;"><a
+                                href="model.html#land">View
+                                More</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Main Content -->
+    <div id="herofirst">
+        <section class="hero">
+            <div class="container">
+                <img src="Assets/Images/lamboback.jpg" alt="" class="hero-image">
+                <h2 class="hero-title">Past the speed limits</h2>
+
+            </div>
+            <div id="about" class="row">
+                <div class="col">
+                    <h2 class="text">
+                        VOYAGER
+                    </h2>
+                    <p class="subtext">Voyager establishment are driven from minds that continuously envision of
+                        a world of speed and luxury. We are a team of engineers and designers who
+                        are more than committed to a machine of pure perfection. Beauty is not a mere
+                        delusion of shape and form but a combination of power and elegance. Our craftmanships are of
+                        pristine and deluxe experience.
+                    </p>
+                </div>
+        </section>
+    </div>
+
+    <section class="establish">
+        <div class=" wrapper">
+
+            <div class="container scrollx">
+                <svg viewBox="0 0 900 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z"
+                        fill="#212529" />
+                    <mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="900"
+                        height="10">
+                        <path
+                            d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z"
+                            fill="#212529" />
+                    </mask>
+                    <g mask="url(#mask0_0_1)">
+                        <rect class="mask" y="-49" height="99" fill="white" />
+                    </g>
+                </svg>
+                <section class="sec1 pin">
+                    <span>Ready</span>
+                    <h2>To embark on a new belief?</h2>
+
+                    <div class="col">
+                        <p>Voyager is not an establishment set to always find conformity in
+                            undertaking the same path as any other establishment. We do not gaze upon the fruitful
+                            labors of our ancestors for a belief that we are able to find relief in a world of ever
+                            changing.
+                        </p>
+                        <p>We understand the meaning of the thrill; the chase that will forever remains in our souls as
+                            long as the breathe we omits still produce the same motion.
+                            Yet human is of the same vicious cycle. Our apparation for what we believe as the constant,
+                            has forever cursed us in the stasis of the repeating motion.
+                        </p>
+                    </div>
+                </section>
+                <section class="sec2 pin">
+                    <span class="anim">Set</span>
+                    <h2 class="anim">Up for a profound enlightment</h2>
+
+                    <div class="col anim">
+                        <p>Voyager is what we believe as an effort towards the progression of the machinery. Our advent
+                            is a conduct of the testament for what mankind
+                            should seek in their conveyance. We are of the same nature. To evolve, to reprogram and to
+                            always be in the pursuit.
+                        </p>
+                        <p>Our machine, will always spark a conversation over what one wills it to be. For some, its a
+                            veneration of apparation that resides within, to some it is nothing more than a machine that
+                            depreciate over time.
+                            Yet, our credence is of the innovation; the allurements of construct and reshaping what one
+                            belief might be.
+                        </p>
+                    </div>
+                </section>
+                <section class="sec3 pin">
+                    <span class="anim">Go</span>
+                    <h2 class="anim">Voyage, and seek the thrill.</h2>
+
+                    <div class="col anim">
+                        <p>We understood the assignment. Gratification could be an instant; that dilutes within time, or
+                            it could be driven, that be experienced of our own vision of what mankind should achieve of.
+                            That is the freedom.</p>
+                        <p>Words are but an inconsequential merits without much reasoning. Therefore we offer you an
+                            experience, see below the testatement of our ability and
+                            the near perfection of our machinery.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Second Section -->
+
+    <div class="gallery">
+        <div class="minimap">
+            <div class="preview"></div>
+        </div>
+        <div class="images">
+
+            <div class="img">
+                <img src="Assets/Img/img1.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="Assets/Img/img2.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="Assets/Img/img3.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="Assets/Img/img4.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="Assets/Img/img5.jpg" alt="">
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <section class="main">
+        <div class=" container text-center">
+            <div class="row">
+                <div class="col">
+                    <div id="interested-second">
+                        <h2 class="text">
+                            Interested?<span><a href="model.html#rover-find">Browse Our
+                                    Models</a></span>
+                        </h2>
+                    </div>
+                </div>
+                <div id="videorover" class="col">
+                    <video src="Assets/Video/rovervideo.mp4" class="rovervid" autoplay loop></video>
+                </div>
+            </div>
+
+
+
+
+
+
+    </section>
+
+    <!-- Pick sections -->
+
+    <section class="three">
+        <div>
+            <h2 class="hidden-text">Fancy a visit?</h2>
+        </div>
+        <div class="item-img">
+            <div class="items">
+                <div class="item" id="item-1">
+                    <div class="item-img">
+                        <img src="Assets/Img/img6.jpg" alt="">
+                    </div>
+
+                    <a href="history.html"> <!--Tukar nanti-->
+                        <div class="item-copy">
+                            <div class="item-copy-1">
+                                <div class="shape">
+                                    <div id="number"><span class="phabet">0</span><span class="phabet">2</span></div>
+                                    <div class="text-right">
+                                        <span class="phabet">H</span><span class="phabet">i</span><span
+                                            class="phabet">s</span><span class="phabet">t</span><span
+                                            class="phabet">o</span><span class="phabet">r</span><span
+                                            class="phabet">y</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item" id="item-1">
+                    <div class="item-img">
+                        <img src="Assets/Img/img7.jpg" alt="">
+                    </div>
+
+                    <a href="store.html">
+                        <div class="item-copy">
+                            <div class="item-copy-1">
+                                <div class="shape">
+                                    <div id="number"><span class="phabet">0</span><span class="phabet">3</span></div>
+                                    <div class="text-right">
+                                        <span class="phabet">A</span><span class="phabet">c</span><span
+                                            class="phabet">c</span><span class="phabet">e</span><span
+                                            class="phabet">s</span><span class="phabet">s</span><span
+                                            class="phabet">o</span><span class="phabet">r</span><span
+                                            class="phabet">i</span><span class="phabet">e</span><span
+                                            class="phabet">s</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Duplicate section -->
+    <section>
+        <div class="items">
+            <div class="item" id="item-1">
+                <div class="item-img">
+                    <img src="Assets/Img/img8.jpg" alt="">
+                </div>
+
+                <a href="dealerships.html"> <!--Tukar nanti-->
+                    <div class="item-copy">
+                        <div class="item-copy-1">
+                            <div class="shape">
+                                <div id="number"><span class="phabet">0</span><span class="phabet">4</span></div>
+                                <div class="text-right">
+                                    <span class="phabet">D</span><span class="phabet">e</span><span
+                                        class="phabet">a</span><span class="phabet">l</span><span
+                                        class="phabet">e</span><span class="phabet">r</span><span
+                                        class="phabet">s</span><span class="phabet">h</span><span
+                                        class="phabet">i</span><span class="phabet">p</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item" id="item-1">
+                <div class="item-img">
+                    <img src="Assets/Img/img9.jpg" alt="">
+                </div>
+
+                <a href="contact.html">
+                    <div class="item-copy">
+                        <div class="item-copy-1">
+                            <div class="shape">
+                                <div id="number"><span class="phabet">0</span><span class="phabet">5</span></div>
+                                <div class="text-right">
+                                    <span class="phabet">C</span><span class="phabet">o</span><span
+                                        class="phabet">n</span><span class="phabet">t</span><span
+                                        class="phabet">a</span><span class="phabet">c</span><span
+                                        class="phabet">t</span><span>
+                                </div>
+                            </div>
+                        </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us -->
+    <section id="about">
+        <article class="flow">
+            <h1>Our Team</h1>
+            <p>Pernecessarium. The minds and the foundation behind our establishment. </p>
+            <div class="team">
+                <ul class="auto-grid" role="list">
+                    <li>
+                        <a href="https://www.google.com" target=_blank class="profile">
+                            <h2 class="profile__name">Puteri Hazimah</h2>
+                            <p>Chief Executive Officer</p>
+                            <img alt="puteri" src="Assets/Images/puteri.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target=_blank class="profile">
+                            <h2 class="profile__name">Ain Najwa</h2>
+                            <p>Chief Financial Officer</p>
+                            <img alt="Profile shot for ains" src="Assets/Images/ain.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target=_blank class="profile">
+                            <h2 class="profile__name">Arfan Haziq</h2>
+                            <p>Technical Lead</p>
+                            <img alt="Profile shot for Ruby Morris" src="Assets/Images/arfan.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target=_blank class="profile">
+                            <h2 class="profile__name">Ariff Azri</h2>
+                            <p> Lead Engineer</p>
+                            <img alt="Profile shot for arif" src="Assets/Images/arip.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target=_blank class="profile">
+                            <h2 class="profile__name">Farahin</h2>
+                            <p>Creative Director</p>
+                            <img alt="Profile shot for Paien" src="Assets/Images/paien.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                </ul>
+            </div>
+            <a href="contact.html#appointment" type="button" class="btn btn-light btn-lg">Learn more</a>
+        </article>
+    </section>
+
+    <!-- Email section -->
+    <div id="emailpart">
+        <div class="container">
+            <div class="col-row">
+                <div class="col-sm">
+                    <h2 class="display-3 intouch-part">Let's get <span>in touch with us.</span></h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control-form-control-lg" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email"><button type="submit"
+                                class="buttonmail">Submit</button>
+                            <small id="emailHelp" class="form-text">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer id="foot" class=" text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section:Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/rollsroycemotorcars/" target="_blank" role="button"><i
+                        class="bi bi-facebook"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Lamborghini" target="_blank" role="button"><i
+                        class="bi bi-twitter-x"></i></a>
+
+                <!-- Youtube -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/user/Lamborghini" target="_blank" role="button"><i class="bi bi-youtube" ></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/voyagercars._?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" role="button"><i
+                        class="bi bi-instagram"></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!-- grid row -->
+                    <div class="row d-flex justify-content-center">
+                        <!-- Grid column -->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+
+
+
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="button" class="btn btn-outline-light mb-4" data-bs-toggle="modal"
+                                data-bs-target="#newsModal">
+                                Subscribe
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Newsletter</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="modal-body" id="bgModal">
+                                                <input type="text" class="form-control" placeholder="First name"
+                                                    aria-label="First name">
+                                                <input type="text" class="form-control" placeholder="Last name"
+                                                    aria-label="Last name">
+                                                <input type="text" class="form-control" placeholder="Email"
+                                                    aria-label="Email">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+        </div>
+        <!-- grid row -->
+        </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p>
+                Voyager establishment are driven from minds that continuously envision of
+                a world of speed and luxury.
+            </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">VOYAGER</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="index.html" class="text-white">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white">About VOYAGER</a>
+                        </li>
+                        <li>
+                            <a href="history.html" class="text-white">History</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">MODELS</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="model.html#lambo" class="text-white">Hot Road</a>
+                        </li>
+                        <li>
+                            <a href="model.html#rolls" class="text-white">Spectre</a>
+                        </li>
+                        <li>
+                            <a href="model.html#land" class="text-white">Path Finder</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">ACCESSORIES</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="gallery.html#best-sellers" class="text-white">Best Seller</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html#new" class="text-white">Travelling</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html#specials" class="text-white">Specials</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Find Us</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="dealerships.html" class="text-white">Dealership</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        </div>
+        <!-- Grid container -->
+
+        <!-- copyright -->
+        <div class="text-center p-3">
+            <p>© 2024 VOYAGER, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- <div class="modal-body" id="bgModal">
+        <input type="text" class="form-control" placeholder="First name"
+            aria-label="First name">
+        <input type="text" class="form-control" placeholder="Last name"
+            aria-label="Last name">
+        <input type="text" class="form-control" placeholder="Email"
+            aria-label="Email">
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Gsap script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+
+
+
+    <!-- main js -->
+    <script src="Assets/js/second.js"></script>
+    <script src="Assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
